@@ -124,3 +124,10 @@ h1 {
 .link-btn:hover i {
   color: var(--navy-bg);
 }
+
+@media (max-width: 384px) {
+  .contact-info {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
